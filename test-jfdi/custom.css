@@ -1,0 +1,74 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : JFDI Custom CSS
+ Author : Creative Weblogic
+ URL : http://www.jfdi.asia
+
+ Last Updated : October 6, 2016
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* Logo */
+#logo a {background-image:url('http://wufoo.com/images/themes/logos/shark.png'); min-height:0; height:40px}
+* html #logo a {/* IE6 png Support */
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://wufoo.com/images/themes/logos/shark.png", sizingMethod="crop");
+}
+
+/* Backgrounds */
+html{background-image:none;background-color:#99cc00}
+#logo{background-image:none;background-color:#669900}
+#container{background:#FFFFFF}
+.wufoo input.text, .wufoo textarea.textarea{background:#FFFFFF url(/images/fieldbg.gif) repeat-x top}
+.wufoo .focused{background:#FFF7C0}
+.wufoo .instruct{background-color:#F5F5F5}
+
+/* Borders */
+#container{border:0 solid #cccccc}
+
+/* Custom */
+.wufoo .info {display:none}
+.wufoo .desc {
+    font-weight: normal;
+}
+
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select {
+    min-height: 30px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+.wufoo .text,
+.wufoo .select {
+    margin-bottom: 0 !important;
+}
+
+.wufoo span.req {
+    color: #444444 !important;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 15px
+}
+
+.wufoo .submit {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #cd0a20;
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    border-bottom-color: #b3b3b3;
+    border-radius: 4px;
+    vertical-align: middle;
+}
